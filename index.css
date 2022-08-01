@@ -1,0 +1,128 @@
+/* your code here */
+body{
+    background: #3ee03e;
+    margin-left: 50px;
+      margin-top:100px;
+      display: flex;
+      justify-content: center;
+  }
+  section{
+      position: relative;
+      background-color: whitesmoke;
+      border-radius: 7px;
+      height: 720px;
+      width: 800px;
+  }
+  
+  .product__photo{
+      position: relative;
+      top: 6%;
+      left: -6%;
+      background-color: rgb(190, 245, 118);
+      width: 390px;
+      height: 630px;
+      border-radius: 7px;
+  }
+  .photo-main{
+    position: relative;
+    top: 30px;
+    left: -20%;
+  }
+  .photo-main:hover{
+   transform: scale(1.2);
+   transition: all .8s ease-in-out;
+   cursor: pointer;
+  }
+  .photo-album{
+      position: relative;
+      background-color:rgb(240, 228, 228);
+      height: 150px;
+      top: 126px;
+      border-bottom-left-radius:  7px;    
+      border-bottom-right-radius:  7px;    
+  }
+  li.img{
+      display: inline;
+      position: relative;
+      margin: 1px;
+      top: 40px;
+      left: 40px;
+  }
+  #full-apple{
+      border: 1px solid rgb(226, 217, 217);
+      border-radius: 5px;
+  }
+  #full-apple:hover{
+      transform: scale(1.3);
+      transition: all .5s ease-in-out;
+      cursor: pointer;
+  }
+  .product__info{
+    position: relative;
+      left: 370px;
+  }
+  .title{
+      position: relative;
+      bottom: 600px;    
+      font-size: 40px;
+      font-family: Consolate Elf;
+      color: rgb(43, 39, 39);
+  }
+  .code{
+      position: relative;
+      bottom: 640px;
+      font-size: 17px;
+      font-family: Consolate Elf;
+      color: rgb(199, 179, 179);
+  }
+  .price{
+    position: relative;
+    bottom: 600px;
+    font-size: 19px;
+    font-family: Consolate Elf;
+    color: red;
+  }
+  div > span{
+    position: inline;
+    bottom: 600px;
+    font-size: 40px;
+    font-family: Consolate Elf;
+    color: #f50000;
+  }
+  div > h3{
+    position: relative;
+      bottom: 580px;
+      font-size: 17px;
+      font-family: Consolate Elf;
+      color: rgb(199, 179, 179);
+  }
+  #demo-pics{
+    position: relative;
+    bottom: 620px;
+    border: 1px solid rgb(226, 217, 217);
+    border-radius: 5px;
+  }
+  li{
+    bottom : 590px;
+    position: relative;
+    padding:1px;
+    margin: 1px;
+  }
+  .buy--btn{
+    position: relative;
+    background-color: #ec5b5b;
+    font-size: 40px;
+    border-radius: 5px;
+    color: white;
+    bottom: 570px;
+  }
+  
+  .share{
+    margin: 0px 100px;
+    top: 10px
+  }
+  .heart{
+    margin: 0px 0px 0px 155px;
+    color: white
+  /*   top: 10px; */
+  }
